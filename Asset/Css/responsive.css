@@ -1,0 +1,78 @@
+/* tablet & mobie */
+@media (max-width: 1023px) {
+    :root {
+        --height-header: 5rem;
+    }
+    .btn {
+        padding: 11px 18px;
+    }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .s-mt-10 {
+        margin-top: 10px;
+    }
+    .btn {
+        width: 100%;
+        padding: 15px 18px;
+    }
+
+    .input__checkbox:checked ~ .header {
+        height: auto;
+    }
+
+    .input__checkbox:checked ~ .modal {
+        display: block;
+    }
+
+    .header {
+        height: var(--height-header);
+        overflow: hidden;
+    }
+    .nav__list {
+        flex-direction: column;
+        flex: 1;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .nav__link {
+    }
+    .header__menu {
+        display: block;
+    }
+    .header__search {
+        display: none;
+    }
+    .slider__text {
+        display: none;
+    }
+    .content_wrap {
+        padding: 34px 16px;
+    }
+    .member {
+        padding: 0;
+    }
+    .tour__time {
+        padding: 13px 16px;
+    }
+    .modal__body-cart,
+    .tould__title,
+    .contact__info {
+        font-size: 1.7rem;
+    }
+    .tould__time,
+    .tould__des {
+        font-size: 1.6rem;
+    }
+    .modal__input-control,
+    .form__control {
+        font-size: 1.7;
+        padding: 11px;
+    }
+    
+}

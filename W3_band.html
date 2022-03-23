@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./Asset/Css/base.css">
+	<link rel="stylesheet" href="./Asset/Css/grid.css">
+	<link rel="stylesheet" href="./Asset/Css/style.css">
+	<link rel="stylesheet" href="./Asset/Css/responsive.css">
+	<link rel="stylesheet" href="./Asset/fonts/themify-icons-font/themify-icons/themify-icons.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&" rel="stylesheet">
+	<title>The band</title>
+	<link rel="icon" href="./Asset/Img/logo/basketball-pink.png" type="image/x-icon" />
+</head>
+<body>
+	<div class="main">
+		
+		<input type="checkbox" hidden id="openmenu" class="input__checkbox">
+		<label for="openmenu" class="modal"></label>
+		<div class="header">
+			<!-- nav list -->
+			
+
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#band" class="nav__link">Band</a>
+					</li>
+					<li class="nav__item">
+						<a href="#tour" class="nav__link">Tour</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact</a>
+					</li>
+					<li class="nav__item">
+						<a href="#!" class="nav__link">
+							More
+							<i class="nav__item-icon ti-angle-down"></i>
+						</a>
+						
+						<ul class="sub__nav--list">
+							<li class="sub__nav--item">
+								<a href="" class="sub__nav--link">Merchandise</a>
+							</li>
+							<li class="sub__nav--item">
+								<a href="" class="sub__nav--link">Extras</a>
+							</li>
+							<li class="sub__nav--item">
+								<a href="" class="sub__nav--link">Media</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			
+
+			<!-- menu mobile -->
+			
+			<label for="openmenu" class="header__menu">
+				<label for="openmenu" class="btn btn__menu">
+					<i class="header__menu-icon ti-menu"></i>
+				</label>
+			</label>
+
+			<!-- search -->
+			<div class="header__search">
+				<button class="btn btn__search">
+					<i class="header__search-icon ti-search"></i>
+				</button>
+			</div>
+		</div>
+		<div class="slider">
+			<img class="slide__img" src="./Asset/Img/Slider1/chicago.jpg" alt="">
+
+			<div class="slider__text">
+				<h3 class="slider__title">CHICAGO</h3>
+				<p class="slider__des">Thank you, Chicago - A night we won't forget.</p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="grid">
+				<div id="band" class="content_wrap">
+					<div class="row">
+						<div class="col l-12">
+							<div class="content__title">The band</div>
+							<p class="content__sub-title">We love music</p>
+							<p class="content__desc">
+								We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+						
+					<div class="row">
+						<div class="col l-12 member">
+							<div class="row member__list">
+								<div class="col l-4 m-4 c-12 member__item">
+									<p class="member__name">Name</p>
+									<img class="member__img" src="./Asset/Img/Content/bandmember.jpg" alt="">
+								</div>
+								<div class="col l-4 m-4 c-12 member__item">
+									<p class="member__name">Name</p>
+									<img class="member__img" src="./Asset/Img/Content/bandmember.jpg" alt="">
+								</div>
+								<div class="col l-4 m-4 c-12 member__item">
+									<p class="member__name">Name</p>
+									<img class="member__img" src="./Asset/Img/Content/bandmember.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tour" class="tour__wrap">
+					<div class="row content_wrap">
+						<div class="col l-12 f-1">
+							<div class="content__title">TOUR DATES</div>
+							<p class="content__sub-title">Remember to book your tickets!</p>
+						</div>
+					
+						<div class="tour__content-wrap">
+							
+							<div class="col l-12">
+								<ul class="tour__list-time">
+									<li class="tour__time">September
+										<span class="sold_out">Sold out</span>
+									</li>
+									<li class="tour__time">October
+										<span class="sold_out">Sold out</span>
+									</li>
+									<li class="tour__time">November
+										<span class="sold_quantity">3</span>
+									</li>
+								</ul>
+							</div>
+							
+							<input type="checkbox" hidden id="modal__ticket" class="open_modal">
+
+							<div class="modal__tickets">
+								<div class="modal__content">
+									<header class="modal__header">
+										<label for="modal__ticket" class="modal__close">
+											<i class="modal__close-icon ti-close"></i>
+										</label>
+										<h2 class="modal__title">
+											<i class="modal__title-icon ti-bag"></i>
+											Tickets
+										</h2>
+									</header>
+
+									<div class="modal__body">
+										<label for="tickets">
+											<p class="modal__body-cart">
+												<i class="modal__body-cart--icon ti-shopping-cart"></i>
+												Tickets, $15 per person
+											</p>
+											<input type="text" class="modal__input-control" id="tickets" placeholder="How many?">
+										</label>
+										<label for="email">
+											<p class="modal__body-cart">
+												<i class="modal__body-cart--icon ti-user"></i>
+												Send To
+											</p>
+											<input type="text" class="modal__input-control" id="email" placeholder="Enter email">
+										</label>
+										<button class="btn btn__modal-tickets">
+											<span>PAY</span>
+											<i class="btn__modal-tickets--icon ti-check"></i>
+										</button>
+										<p class="need__help">Need <a class="need__help-link" href="">help?</a></p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col l-12 tould__address">
+								<div class="row sm-gutter">
+									<div class="col l-4 m-4 c-12 tour__item">
+										<img src="./Asset/Img/tour/newyork.jpg" alt="" class="tould__img">
+										<div class="tould__info">
+											<h3 class="tould__title">New York</h3>
+											<p class="tould__time">Fri 27 Nov 2016</p>
+											<p class="tould__des">
+												Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+											</p>
+											<label for="modal__ticket" class="btn btn__tickets">Buy tickets</label>
+										</div>
+									</div>
+									<div class="col l-4 m-4 c-12 tour__item">
+										<img src="./Asset/Img/tour/paris.jpg" alt="" class="tould__img">
+										<div class="tould__info">
+											<h3 class="tould__title">Paris</h3>
+											<p class="tould__time">Sat 28 Nov 2016</p>
+											<p class="tould__des">
+												Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+											</p>
+											<label for="modal__ticket" class="btn btn__tickets">Buy tickets</label>
+										</div>
+									</div>
+									<div class="col l-4 m-4 c-12 tour__item">
+										<img src="./Asset/Img/tour/sanfrancisco.jpg" alt="" class="tould__img">
+										<div class="tould__info">
+											<h3 class="tould__title">San Francisco</h3>
+											<p class="tould__time">Sun 29 Nov 2016</p>
+											<p class="tould__des">
+												Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+											</p>
+											<label for="modal__ticket" class="btn btn__tickets">Buy tickets</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="contact" class="row content_wrap">
+					<div class="col l-12 f-1">
+							<div class="content__title">CONTACT</div>
+							<p class="content__sub-title">Fan? Drop a note!</p>
+					</div>
+
+					<div class="grid mt-32">
+						<div class="row">
+							<div class="col l-6 m-6 c-12 contact__content">
+								<p class="contact__info">
+									<i class="contact__info-icon ti-location-pin"></i>
+									Chicago,US
+								</p>
+								<p class="contact__info">
+									<i class="contact__info-icon ti-mobile"></i>
+									Phone: +00 151515
+								</p>
+								<p class="contact__info">
+									<i class="contact__info-icon ti-email"></i>
+									Email: mail@mail.com
+								</p>
+
+							</div>
+
+							<div class="col l-6 m-6 c-12">
+								<form action="">
+									<div class="row sm-gutter">
+										<div class="col l-6 m-6 c-12">
+											<input class="form__control" required="" type="text" placeholder="Name">
+										</div>
+										<div class="col l-6 m-6 c-12 s-mt-10">
+											<input class="form__control" required="" type="text" placeholder="Email">
+										</div>
+									</div>
+									<div class="row mt-10">
+										<div class="col l-12 f-1">
+											<input class="form__control" required="" type="text" placeholder="Message">
+										</div>
+									</div>
+									<button class="btn bnt__contact">SEND</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="map">
+				<img src="./Asset/Img/contact/map.jpg" alt="" class="map__img">
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="footer__content">
+				<a class="icon__link" href=""><i class="footer__content-icon ti-facebook"></i></a>
+				<a class="icon__link" href=""><i class="footer__content-icon ti-instagram"></i></a>
+				<a class="icon__link" href=""><i class="footer__content-icon ti-linux"></i></a>
+				<a class="icon__link" href=""><i class="footer__content-icon ti-pinterest"></i></a>
+				<a class="icon__link" href=""><i class="footer__content-icon ti-twitter-alt"></i></a>
+				<a class="icon__link" href=""><i class="footer__content-icon ti-linkedin"></i></a>
+				<p class="copyright">Powered by<a class="copyright__link" href="">My CV</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
